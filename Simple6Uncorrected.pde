@@ -35,11 +35,11 @@ void draw() {
     size4 = 0;
     size5 = -(width/4);
     size6 = -(width/2);
-  } else {
+  } else 
     size2 += speed;
-    size3 += speed;
-    size4 += speed;
-    size5 += speed;
-  }
+  size3 += speed;
+size4 += speed;
+  size5 += speed;
+  
   i+;
 }
